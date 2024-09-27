@@ -1,0 +1,27 @@
+.post-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+.posts {
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+  transition: transform 1000ms, ease-in-out;
+  border-radius: 8px;
+}
+
+.posts:hover {
+  transform: scale(1.05);
+}
+.post {
+  padding: 10px;
+
+  & p {
+    margin-top: 8px;
+    text-align: justify;
+  }
+}
+.posts img {
+  border-radius: 8px 8px 0px 0px;
+  max-width: 100%;
+}

@@ -1,0 +1,15 @@
+.button-container {
+  display: flex;
+  min-height: 60px;
+  align-items: end;
+}
+.button {
+  background-color: blue;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+}
